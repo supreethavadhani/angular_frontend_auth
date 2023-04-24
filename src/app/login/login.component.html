@@ -1,0 +1,8 @@
+<div>
+  <input type="email" placeholder="email">
+  <button (click)="submitClicked()">Submit</button>
+</div>
+
+<div *ngIf="auth.isLoggedIn$| async">
+    login compwroks
+</div>
